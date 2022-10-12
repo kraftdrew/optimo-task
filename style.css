@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.page_container {
+    background: #008000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+
+}
+
+.nav {
+    background: #808000;
+    border: 8px solid black;
+    min-height: 90px ;
+}
+
+.elementsContainer {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.rhombusContainer {
+
+    width: 40%;
+    min-width: 400px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.rhombusContent {
+
+    transform:  rotate(-45deg);
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    position: absolute;
+    left: -30px;
+    top: 50px;
+
+}
+
+.rhombusContent :nth-child(2) {
+    margin-left: 100px;
+}
+
+
+.rhombusElement {
+    background: #FF0000;
+    border: 7px solid black;
+    width: 150px;
+    height: 150px;
+
+}
+
+/*### Math operators ###*/
+.MathOperatorsContainer {
+
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+
+
+
+
+.MathOperatorsContent  {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circleElement {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #008080;
+    border: 7px solid black;
+}
+
+.equalContainer  {
+    width: 50%;
+    min-height: 350px;
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    padding: 120px 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.equalElement {
+
+    width: 170px;
+    height: 30px;
+    background: #0000FF;
+    border: 7px solid black;
+
+}
+
+.bigRectangleContainer {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+}
+
+.bigRectangleElement {
+    background: #FFFFFF;
+    border: 7px solid black;
+    min-width: 160px;
+    width: 80%;
+    max-width: 290px;
+    height: 560px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+}
+
+.bigRectangleElement:after {
+
+    content: "ABC";
+
+    font-size: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+@media (max-width: 900px ) {
+
+    .MathOperatorsContent  {
+
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .bigRectangleContainer {
+        width: 60%;
+
+    }
+    .MathOperatorsContainer {
+
+        width: 0;
+    }
+
+}
+
+@media (max-width: 582px ) {
+
+
+    .elementsContainer {
+        flex-direction: column;
+    }
+
+    .MathOperatorsContainer {
+
+        width: 100%;
+    }
+
+    .MathOperatorsContent  {
+
+        position: relative;
+    }
+
+    .rhombusContent  {
+
+        position: relative;
+        top: 120px;
+        left: -20px;
+    }
+
+    .rhombusContainer {
+        height: 300px;
+    }
+
+}
