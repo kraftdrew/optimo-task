@@ -15,7 +15,6 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
-
 }
 
 .nav {
@@ -32,19 +31,15 @@ html, body {
     justify-content: flex-start;
 }
 
-
 .rhombusContainer {
-
     width: 40%;
     min-width: 400px;
-
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
 .rhombusContent {
-
     transform:  rotate(-45deg);
     display: flex;
     justify-content: flex-start;
@@ -68,19 +63,12 @@ html, body {
 
 }
 
-/*### Math operators ###*/
 .MathOperatorsContainer {
-
     width: 30%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-
 }
-
-
-
-
 
 .MathOperatorsContent  {
     width: 100%;
@@ -89,7 +77,6 @@ html, body {
     align-items: center;
     justify-content: center;
 }
-
 
 .circleElement {
     width: 130px;
@@ -109,18 +96,13 @@ html, body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
-
-
 .equalElement {
-
     width: 170px;
     height: 30px;
     background: #0000FF;
     border: 7px solid black;
-
 }
 
 .bigRectangleContainer {
@@ -129,8 +111,6 @@ html, body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-
-
 }
 
 .bigRectangleElement {
@@ -144,40 +124,31 @@ html, body {
     margin-top: 50px;
     margin-bottom: 20px;
 
-
 }
 
 .bigRectangleElement:after {
-
     content: "ABC";
-
     font-size: 50px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-
-
 }
 
 @media (max-width: 900px ) {
 
     .MathOperatorsContent  {
-
         position: absolute;
         left: 0;
         bottom: -50px;
         width: 400px;
         height: 400px;
-
     }
 
     .bigRectangleContainer {
         width: 60%;
-
     }
     .MathOperatorsContainer {
-
         width: 0;
     }
 
@@ -185,23 +156,19 @@ html, body {
 
 @media (max-width: 582px ) {
 
-
     .elementsContainer {
         flex-direction: column;
     }
 
     .MathOperatorsContainer {
-
         width: 100%;
     }
 
     .MathOperatorsContent  {
-
         position: relative;
     }
 
     .rhombusContent  {
-
         position: relative;
         top: 120px;
         left: -20px;
