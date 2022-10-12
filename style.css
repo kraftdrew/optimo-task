@@ -92,7 +92,6 @@ html, body {
     margin-right: 20px;
     height: 100%;
     display: flex;
-    padding: 120px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -153,6 +152,10 @@ html, body {
         width: 0;
     }
 
+    .bigRectangleElement {
+        background: #C73736;
+    }
+
 }
 
 @media (max-width: 582px ) {
@@ -167,16 +170,24 @@ html, body {
 
     .MathOperatorsContent  {
         position: relative;
+        height: 250px;
     }
 
     .rhombusContent  {
         position: relative;
         top: 120px;
-        left: 0px;
+        left: 0;
     }
 
     .rhombusContainer {
         height: 300px;
+    }
+
+    .bigRectangleElement {
+        background: rgba(0, 0, 255, 1);
+        margin-top: 5px;
+        margin-left: 50px;
+        width: 250px;
     }
 
 }

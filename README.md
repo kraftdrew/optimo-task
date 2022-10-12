@@ -7,4 +7,5 @@
 
 <h3>Result:</h3>
 
-![main_page](https://storage.googleapis.com/kraftdrew_marketplace_assets/demo_comp.gif)
+![main_page](https://storage.googleapis.com/kraftdrew_marketplace_assets/demo_page.gif)
+
